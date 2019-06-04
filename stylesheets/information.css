@@ -1,0 +1,48 @@
+#info-container{
+    margin-top: 5%;
+    text-align: left;
+    border: wheat;
+    border-style: dotted;
+    font-family: 'modesevenregular';
+}
+
+#info-container>.object>h2 {
+    color: brown;
+    font-size: 2.75vh;
+}
+
+#info-container>.array>h2{
+    color: brown;
+    font-size: 2.75vh;
+}
+
+#info-container h2 {
+    margin-left: 5%;
+}
+
+#info-container>.object{
+    border: blueviolet;
+    border-style: dashed;
+    margin: 5%;
+}
+
+#info-container>.object>p{
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#info-container>.array{
+    margin: 5%;
+    border: blue;
+    border-style: dashed;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 2%;
+}
+
+.array .object p{
+    color: chocolate;
+    margin-left: 5%;
+}

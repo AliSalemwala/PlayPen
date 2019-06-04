@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PlayPen</title>
+        <meta name="description" content="Not the child porn one.">
+        <!---<script src="https://d3js.org/d3.v3.min.js"></script>-->
+        <script src="../scripts/d3.v3.min.js"></script>
+        
+        <link rel="stylesheet" href="../stylesheets/home.css">
+        <link rel="stylesheet" href="../stylesheets/alertlist.css">
+        <link rel="stylesheet" href="../stylesheets/kneighbours.css">
+        <link rel="stylesheet" href="../stylesheets/information.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="expires" content="0">
+    </head>
+
+    <body>
+        <div id="header">
+            <img src="../imgs/logo.gif">
+        </div>
+            <div id="list-container" class="container">
+                <h1>ALERTS</h1>
+                <table id="file-list">
+                    <tr>
+                        <th>Filename md5</th>
+                        <th>Entropy</th>
+                        <th>Filesize</th>
+                        <th>Timestamp</th>
+                        <th>More Info</th>
+                        <th>Phylogeny</th>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="big-info-container" style="margin-top:5%" class="container">
+                <h1 id="heading" style="text-align:center">YOU NEED TO PRESS A BUTTON</h1>
+                <div id="info-container"></div>
+            </div>
+
+        <script src="../scripts/alerts.js"></script>
+    </body>
+</html>

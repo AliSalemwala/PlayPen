@@ -1,0 +1,44 @@
+table {
+    color: #4d4dff;
+    display: inline-block;
+    width: 95%;
+    table-layout: fixed;
+    margin-bottom: 2%;
+}
+
+th {
+    border-left: wheat;
+    border-left-style: dashed;
+    border-bottom: dotted;
+    padding-bottom: 1%; 
+    text-align: center;
+    width: 15%;
+    font-size: 150%;
+}
+
+td {
+    color: azure;
+    border-left: wheat;
+    border-left-style: dashed;
+    border-bottom: dashed;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'modesevenregular';
+    color: aliceblue;
+}
+
+#list-container { 
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+#info-container {
+    color: blanchedalmond;
+}
+
+.btn {
+    background: #666;
+    cursor: pointer;
+}

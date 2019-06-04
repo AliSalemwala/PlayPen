@@ -1,0 +1,26 @@
+body {
+    background-image: url("../imgs/darkness.png");
+    text-align: center;
+    font-family: 'modesevenregular';
+}
+
+@font-face {
+    font-family: 'modesevenregular';
+    src: url('../fonts/hacker-webfont.woff') format('woff2'),
+         url('../fonts/hacker-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header {
+    margin: 1vh;
+    text-align: center;
+}
+
+.container {
+    border-style: double;
+    border-color: chartreuse;
+    background: black;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+}

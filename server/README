@@ -1,0 +1,11 @@
+URI Schema is as follows:
+
+<url>/alerts/ will contain the list of all files that has alerts generated for them
+<url>/alerts/<file_id> will contain the alerts for that specific file
+<url>/phylogeny/ will contain the list of all files that has phylogeny analysis generated for them
+<url>/phylogeny/<file_id> will contain the phylogeny analysis for that specific file
+
+Requirements Flask, Flask-Rest. Just execute pip install -r requirements.txt,
+it will download the required modules for you
+
+curl http://localhost:5000/phylogeny/hmm/1 -d "data=deniz" -X PUT

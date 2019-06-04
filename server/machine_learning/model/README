@@ -1,0 +1,12 @@
+Usage is very simple. In your favorite terminal, execute:
+
+python model_cli.py --predict [PRED_LIST]
+
+Notice that PRED_LIST should contain 697 elements inside, seperated by spaces, not commas
+
+You can also change the path to the model by using --model_path MODEL_PATH flag
+
+Requirements that should be satisfied in the current Python workspace (dependencies):
+
+Numpy
+Pickle
